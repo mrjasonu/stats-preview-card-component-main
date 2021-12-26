@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="container">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <div id="card">
 
-  Get insights that help your business grow.
+      <div class="stats-textarea">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+        <h1>Get <span id="purple-word">insights</span> that help<br>your business grow.</h1>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+        <p id="p-text">Discover the benefits of data analvtics and make<br>better decisions regarding revenue. customer<br>experience and overall efficiency</p>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <div class="stats-block">
+          <div class="stat">
+            <h2>10k+</h2>
+            <p>COMPANIES</p>
+          </div>
+          <div class="stat">
+            <h2>314</h2>
+            <p>TEMPLATES</p>
+          </div>
+          <div class="stat">
+            <h2>12M+</h2>
+            <p>QUERIES</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="desktop-image-area">
+        <img src="./images/image-header-desktop.jpg" alt="">
+      </div>
+
+    </div>
+    
+  </body>
 </html>

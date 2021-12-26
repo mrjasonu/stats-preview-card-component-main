@@ -1,0 +1,82 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0a0c1b;
+}
+
+.container {
+    display: block;
+    margin: 150px auto;
+    width: 1000px;
+    height: 410px;
+}
+
+#card {
+    /* display: block; */
+    display: inline-flex;
+    width: 1000px;
+    height: 410px;
+    background-color: #1c1938;
+    border-radius: 8px;
+}
+
+.stats-textarea {
+    width: 450px;
+    /* height: 100%; */
+    padding: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+#purple-word {
+    color: #b751f7d0;
+}
+
+.stats-textarea {
+    padding: 50px;
+}
+
+#p-text {
+    color: #85839b;
+    line-height: 25px;
+}
+
+.stats-block {
+    display: inline-flex;
+}
+
+.stat {
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.stat h2 {
+    color: #ffff;
+}
+.stat p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.454);
+    position: relative;
+    bottom: 20px;
+}
+
+#desktop-image-area {
+    width: 500px;
+    height: 410px;
+    background-color: #6e17a4;
+    /* background-color: #7325a4; */
+    /* background-color: #9c43d3af; */
+    /* background-color: #ad4de879; */
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#desktop-image-area img {
+    width: 500px;
+    height: 410px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    opacity: 0.5;
+    /* opacity: 0.0; */
+}
