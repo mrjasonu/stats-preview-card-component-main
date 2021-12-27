@@ -11,7 +11,6 @@ html {
 }
 
 #card {
-    /* display: block; */
     display: inline-flex;
     width: 1000px;
     height: 410px;
@@ -21,7 +20,6 @@ html {
 
 .stats-textarea {
     width: 450px;
-    /* height: 100%; */
     padding: 30px;
 }
 
@@ -54,6 +52,7 @@ h1 {
 .stat h2 {
     color: #ffff;
 }
+
 .stat p {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.454);
@@ -61,13 +60,35 @@ h1 {
     bottom: 20px;
 }
 
+.image-div {
+    background-color: #6e17a4;
+}
+
+
+/* ----------CHECKPOINT---------- */
+
+#mobile-image-area {
+    display: none;
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#mobile-image-area img {
+    width: 350px;
+    height: 250px;
+    opacity: 0.5;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+} 
+
+/* ----------CHECKPOINT---------- */
+
+
 #desktop-image-area {
     width: 500px;
     height: 410px;
-    background-color: #6e17a4;
-    /* background-color: #7325a4; */
-    /* background-color: #9c43d3af; */
-    /* background-color: #ad4de879; */
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -78,5 +99,55 @@ h1 {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     opacity: 0.5;
-    /* opacity: 0.0; */
+}
+
+@media only screen and (max-width: 1037px) {
+
+    .container {
+        display: block;
+        margin: 20px auto;
+        width: 350px;
+        height: 700px;
+        
+    }
+
+    #card {
+        display: block;
+        width: 350px;
+        height: 700px;
+    }
+
+    .stats-textarea {
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .stats-textarea h1 {
+        font-size: 25px;
+    }
+
+    .stats-textarea #p-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    #desktop-image-area {
+        display: none;
+    }
+
+    #mobile-image-area {
+        display: block;
+    }
+
+    .stats-block {
+        display: block;
+        width: 100%;
+    }
+
+    .stat {
+        display: block;
+        margin: 10px auto;
+    }
+
 }
